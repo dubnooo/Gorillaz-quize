@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>цукерку не дам</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <header>
+            <h1>Вікторина: перевіримо як ти слухав мене😁
+                вгадаєш все правильно отримаєш 2 цукерки💊
+            </h1>
+            <button id="theme-toggle" class="btn">Поділити Польшу😁</button>
+        </header>
+
+
+        <div id="quiz-box" class="quiz-box">
+            <div id="question-area">
+                <div id="progress">Питання 1 з 8</div>
+                <div id="question-text">Текст питання буде тут.</div>
+                <img id="question-image" src="https://media.readdork.com/wp-content/uploads/2025/09/Gorillaz-The-Mountain-Press-Image.jpg" alt="Зображення до питання" class="question-img" style="display: none;">
+            </div>
+
+
+            <div id="answer-buttons" class="answer-grid">
+                </div>
+
+
+            <button id="next-button" class="btn next-btn" disabled>Наступне питання</button>
+        </div>
+
+
+        <div id="result-box" class="result-box" style="display: none;">
+            <h2>Вітаю ти пройшов.              
+                цукеку не дам я бідний😔</h2>
+            <p id="score-text">Ви відповіли правильно на 0 з 8 питань.</p>
+            <button id="restart-button" class="btn">ти не попробуєш знову</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
